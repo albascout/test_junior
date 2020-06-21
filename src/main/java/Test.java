@@ -12,7 +12,7 @@ public class Test {
         p.setURL("jdbc:mysql://localhost:3306/randomDB?serverTimezone=Europe/Moscow&useSSL=false");
         p.setUsername("root");
         p.setPassword("junior");
-        p.setN(100);git
+        p.setN(100);
         p.insertIntoTest();
         p.createXML(p.getFromTest());
         try {
